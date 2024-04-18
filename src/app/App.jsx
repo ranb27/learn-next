@@ -13,7 +13,9 @@ function App() {
 
         <div className="h-screen w-screen">
           <div className="h-full flex flex-col justify-center items-center gap-4">
-            <h1 className="font-bold text-blue-500 text-7xl">Hello FETL</h1>
+            <h1 className="font-bold text-blue-500 text-7xl">
+              Welcome to Pokemon Pool
+            </h1>
             <Button
               size="lg"
               color="primary"

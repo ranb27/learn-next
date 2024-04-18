@@ -26,7 +26,7 @@ export default function Nav() {
     <div className="fixed mx-auto w-full">
       <Navbar className="bg-transparent">
         <NavbarBrand>
-          <p className="font-bold text-primary">FETL</p>
+          <p className="font-bold text-primary">RANB27</p>
           {/* <Link href="/dashboard">Dashboard</Link> */}
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-8" justify="center">
