@@ -3,6 +3,7 @@ import Nav from "./components/Navbar";
 import { Button } from "@nextui-org/react";
 import { Divider } from "@nextui-org/react";
 import { useSnackbar } from "notistack";
+import Link from "next/link";
 
 function App() {
   const { enqueueSnackbar, closeSnackbar } = useSnackbar();
@@ -16,19 +17,9 @@ function App() {
             <h1 className="font-bold text-blue-500 text-7xl">
               Welcome to Pokemon Pool
             </h1>
-            <Button
-              size="lg"
-              color="primary"
-              className=""
-              onClick={() => {
-                window.location.href = "/dashboard";
-                // enqueueSnackbar("Welcome to FETL", {
-                //   variant: "success",
-                // });
-              }}
-            >
+            <Link className="p-2 rounded-2xl bg-primary" href="/dashboard">
               Start now
-            </Button>
+            </Link>
           </div>
         </div>
       </div>
